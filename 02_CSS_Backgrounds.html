@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        #bgImage{
+            width: 500px;
+            background-image: url("img/image5.jpeg");
+            padding: 10px;
+        }
+        #bgPosition {
+
+            height: 300px;
+            width: 800px;
+            background-color: lightsalmon;
+            background-image: url("img/nature.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #bgAttachment {
+            background-repeat: no-repeat;
+            background-image: url("img/image5.jpeg");
+            height: 400px;
+            width: 100%;
+            background-attachment: fixed;
+        }
+        #bgRepeat{
+            width: 800px;
+            height: 500px;
+            background-color:blue;
+            background-image: url("img/nature.jpg");
+            background-repeat: repeat-x;
+        }
+    </style>
+</head>
+<body>
+
+<!-- BACKGROUND COLOR -->
+<h2 style="background-color: teal">I am Teal color Background</h2>
+
+<!-- BACKGROUND IMAGE -->
+<h2>BACKGROUND IMAGE</h2>
+<div id="bgImage">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi architecto atque blanditiis, cupiditate delectus distinctio est et eum exercitationem ipsam labore laboriosam magni minus modi molestiae mollitia necessitatibus neque nihil optio perferendis quam quos sapiente sunt suscipit ullam vero?</p>
+</div>
+
+<!-- BACKGROUND ATTACHMENT -->
+<h2>BACKGROUND ATTACHMENT</h2>
+<div id="bgAttachment"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, expedita?</p>
+
+<!-- BACKGROUND POSITION -->
+<h2>BACKGROUND POSITION</h2>
+<div id="bgPosition"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci animi atque dolor dolore doloribus dolorum ducimus eius eveniet expedita harum molestiae mollitia nostrum nulla, porro reiciendis suscipit veniam voluptates.</p>
+
+
+<!-- BACKGROUND REPEAT -->
+<h2>BACKGROUND REPEAT</h2>
+<div id="bgRepeat"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorem ducimus eaque excepturi fugit impedit obcaecati qui quibusdam recusandae. Accusantium?</p>
+
+
+</body>
+</html>
